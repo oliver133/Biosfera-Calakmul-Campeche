@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:whitesmoke;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: #bc4e9c;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.672), hsla(317, 45%, 52%, 0.672)), url(../img/5taportada.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(340, 95%, 50%, 0.672), hsla(317, 45%, 52%, 0.672)), url(../img/5taportada.jpg); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+nav{
+    text-align: center;
+    padding: 30px 50px 0 0;
+}
+nav > a{
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 20px;
+}
+nav > a:hover{
+    text-decoration: underline;
+    color: gold;
+}
+
+/*Especificación de colores para cada palabra o dato importante e idea princial*/
+
+span{
+    color: gold;
+}
+x{
+    color: black;
+}
+
+/*Diseño del contendeor*/
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, lfr);
+    grid-template-rows: repeat(4, auto);
+}
+
+/*Codigo para el fondo (darle un dieño Novedoso)*/
+
+.contenedor > div,
+.contenedor .header,
+.contenedor .contenido,
+.contenedor .sidebar,
+.contenedor .footer{
+padding: 20px;
+border-radius: 4px;
+    background: #bc4e9c;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.672), hsla(317, 45%, 52%, 0.672)), url(../img/2daPortada.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(340, 95%, 50%, 0.672), hsla(317, 45%, 52%, 0.672)), url(../img/2daPortada.jpg); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    border-radius: 30px;
+}
+.contenedor .header{
+    color: white;
+    text-align: center;
+}
